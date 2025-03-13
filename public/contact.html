@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../node_modules/lightbox2/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="img/ak.ico" href="img/Ak.ico">
+    <title>İletişim</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+                <img src="img/logo.png" alt="" class="main-nav__logo">
+                <ul class="main-nav__items">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="about.html">Hakkımda</a></li>
+                    <li><a href="projects.html">Projelerim</a></li>
+                    <li><a href="contact.html" class="active">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- İletişim -->
+
+    <section id="contact-a" class="text-center py-3">
+        <div class="container">
+            <h2 class="section-title">İletişim</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">Bizimle Düşüncelerinizi Paylaşın.</p>
+            <form action="https://formspree.io/f/xkgoargy" method="POST">
+                <div class="form-fields">
+                    <input type="text" class="name input" name="fullname" id="fullname" placeholder="Adınız ve Soyadınız">
+                    <input type="text" class="subject input" name="subject" placeholder="Konu" id="subject">
+                    <input type="email" class="email input" name="email" id="email" placeholder="Email">
+                    <input type="tel" class="phone input" name="phone" id="phone" placeholder="Telefon Numarası">
+                    <textarea name="message input" class="message" id="message" placeholder="Mesajınız . . ."></textarea>
+                    <button type="submit" class="btn-dark">Gönder</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-b" class="bg-dark py-4">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <h3>Email</h3>
+                    <p>hello@alperkaya.net.tr</p>
+                </div>
+                <div>
+                    <i class="fas fa-user-secret fa-2x"></i>
+                    <h3>Alper KAYA</h3>
+                    <p>Junior Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>2025 &copy; Alper KAYA-Tüm Hakları Saklıdır</p>
+
+            <div class="social">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-steam"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
